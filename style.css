@@ -43,27 +43,6 @@ body{
    margin:0;   
    float:left;
 }
-
-
-
-/*.gallery-container {
-    position: relative;
-    width: 100%;
-    height:100%;
-    overflow: hidden;
-}
-
-.images {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin: 10px;
-}
-.images img {
-    width: 445px;
-    height:400px;
-    display: block;
-}*/
 .scrolling-text{
    position:absolute;
    top: 50%;
