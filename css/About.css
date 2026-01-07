@@ -4,18 +4,25 @@ body{
     background-size: cover;
 }
 
-p{
-    font-size: 22px;
-     font-family:'Arial, sans-serif';
-    
+.spaced-paragraph {
+  margin-top: 20px;   /* space above paragraph */
+  margin-bottom: 20px; /* space below paragraph */
+  line-height: 1.6;   /* improve readability */
+  text-indent: 30px;  /*first line start*/
+  font-size: 22px;
+  font-family:'Times New Roman';
 }
 
-li{
-    list-style-type: square;
-    font-size: 20px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 50px;
+
+.items{
+  column-count: 2;          /* Number of columns */
+  column-gap: 40px;         /* Space between columns */
+  list-style-type: disc;     /* Optional: bullet style */
+  line-height: 50px;  
+  font-size: 20px;
 }
+
+
 .home{
   
    font-family:georgia;

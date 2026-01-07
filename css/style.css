@@ -52,7 +52,7 @@ body{
 }
 
 .quotes h3 {
-   text-align:center;
+    text-align:center;
     font-size: 26px;
     margin-bottom: 40px;      /* Space between quotes & icons */
 }
