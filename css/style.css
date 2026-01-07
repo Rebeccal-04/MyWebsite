@@ -43,7 +43,38 @@ body{
    margin:0;   
    float:left;
 }
-.scrolling-text{
+.quotes h3{
+   font-family:georgia;
+   color:white;
+   font-size: 30px;
+   float:left;
+}
+.icon-text {
+  display: inline-block;
+  justify-content: left;
+  gap: 40px;
+  text-align: center;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+.icon-text i {
+  font-size: 2.5rem;
+  
+}
+
+
+.blouse-image {          /* same as website bg */
+  /*padding: 10px;
+  border-radius: 12px;
+}
+
+.blouse-image img {
+  width: 300px;
+  border-radius: 10px;
+  mix-blend-mode: lighten;
+  float:right;
+}
+/*.scrolling-text{
    position:absolute;
    top: 50%;
    left: 100%;
@@ -59,7 +90,7 @@ body{
    animation: moveText 15s linear infinite;
    
 }
-/* animation */
+/* animation 
 @keyframes moveText {
     from {
         left: 100%;
@@ -67,6 +98,6 @@ body{
     to {
         left: -100%;
     }
-}
+}*/
 
 

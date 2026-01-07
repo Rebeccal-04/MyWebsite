@@ -16,6 +16,47 @@ li{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     line-height: 50px;
 }
+.home{
+  
+   font-family:georgia;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+   padding: 15px;
+   /*background-color:rgb(3, 99, 99); */
+   background-image: url("../images/fab4.jpg"); 
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+   
+}
+.home a{
+   display:inline-block;
+   color:white;
+   padding:15px 25px;
+   text-decoration: none;
+   margin:0;
+   
+}
+.home a:hover{
+    color:rgb(15, 184, 184); 
+}
+.home h3{
+  
+   font-family:georgia;
+   font-size: 30px;
+   font-weight: bold;
+   text-align: left;
+   display:inline-block;
+   color:white;
+   background: linear-gradient(rgb(41, 134, 134),white,rgb(41, 134, 134));
+    -webkit-background-clip: text;
+   color:transparent;	
+   padding:15px 25px;
+   text-decoration: none;
+   margin:0;   
+   float:left;
+}
 .kids{
     float:right;
     display:inline-block;
