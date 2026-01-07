@@ -43,37 +43,88 @@ body{
    margin:0;   
    float:left;
 }
-.quotes h3{
-   font-family:georgia;
-   color:white;
-   font-size: 30px;
-   float:left;
+.quotes-section {
+    text-align: left;       /* left everything inside */
+    margin-top: 60px;
+    font-family: Georgia;
+    color:white;
+    margin: 20px;
+}
+
+.quotes h3 {
+   text-align:center;
+    font-size: 26px;
+    margin-bottom: 40px;      /* Space between quotes & icons */
+}
+
+.quotes{
+   animation:wave-motion 2s infinite;
+}
+
+@keyframes wave-motion {
+  0%, 100% {
+    transform: translateX(0px);
+  }
+  20% {
+    transform: translateY(-6px);
+  }
+  40% {
+    transform: translateX(3px);
+  }
+  60% {
+    transform: translateY(-3px);
+  }
+  80% {
+    transform: translateX(6px);
+  }
 }
 .icon-text {
-  display: inline-block;
-  justify-content: left;
-  gap: 40px;
-  text-align: center;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
-}
-.icon-text i {
-  font-size: 2.5rem;
-  
+   margin:20px;
+    display: inline-block;            /* Horizontal column*/
+    justify-content: center;  /* Center the icons */
+    gap: 60px;                /* Space between each icon+text */
 }
 
+.icon-item {
+    display: flex;
+    flex-direction: row;   /* Icon on top, text below */
+    align-items: center;      /* Center inside each item */
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 18px;
+}
 
-.blouse-image {          /* same as website bg */
-  /*padding: 10px;
-  border-radius: 12px;
+.icon-item span:first-child {
+    font-size: 36px;          /* Bigger icon size */
+    margin-bottom: 10px;      /* Space between icon & text */
+}
+
+.con{
+    display: flex;
+    flex-direction: row;   /* Icon on top, text below */
+    align-items: center;      /* Center inside each item */
+    color:white;
+    font-weight: bold;
+    font-size: 30px; 
+    margin: 20px;
+}
+
+.card{
+   padding:200px;
+   border:2px solid white;
+   border-radius: 10px;
+   background-color: white;
 }
 
 .blouse-image img {
-  width: 300px;
+  width: 400px;
   border-radius: 10px;
-  mix-blend-mode: lighten;
   float:right;
+  margin-right: 50px;
+  margin-top: 30px;
+  
 }
+
 /*.scrolling-text{
    position:absolute;
    top: 50%;
