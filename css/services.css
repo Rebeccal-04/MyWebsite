@@ -3,6 +3,9 @@
    padding:0;
    box-sizing: border-box;
 }.nav{
+   position:sticky;
+   top:0;
+   z-index:3;
    width:100%;
    font-family:georgia;
    font-size: 20px;
@@ -48,4 +51,160 @@
    margin:0;   
    float:left;
 }
+
+h2{
+   margin-top:20px;
+   margin-left:10px;
+   font-size: 40px;
+   
+}
+.container{
+   display: flex;
+
+}
+
+.EmB{
+   width:400px;
+   height: 265px;
+   border:5px solid rgb(6, 114, 114); 
+   border-radius: 20px;
+   margin: 30px 30px;
+  
+}
+.EmB img{
+   width: 100px;
+   height:100px;
+   margin:15px;
+   border-radius: 20px;
+} 
+.EmB h4{
+   margin-left:10px;
+   font-size: 25px;
+}
+.EmB p{
+   margin:15px 10px;
+   font-size: 20px;
+   font-family:Georgia;
+}
+.EmB1{
+   width:400px;
+   height: 265px;
+   border:5px solid rgb(6, 114, 114);
+   border-radius: 20px;
+   margin: 30px 30px;
+  
+}
+.EmB1 img{
+   width: 100px;
+   height:100px;
+   margin:15px;
+   border-radius: 20px;
+} 
+.EmB1 h4{
+   margin-left:10px;
+   font-size: 25px;
+}
+.EmB1 p{
+   margin:15px 10px;
+   font-size: 20px;
+   font-family:Georgia;
+}
+.EmB2{
+   width:400px;
+   height: 265px;
+   border:5px solid rgb(6, 114, 114);
+   border-radius: 20px;
+   margin: 30px 30px;
+  
+}
+.EmB2 img{
+   width: 100px;
+   height:100px;
+   margin:15px;
+   border-radius: 20px;
+} 
+.EmB2 h4{
+   margin-left:10px;
+   font-size: 25px;
+}
+.EmB2 p{
+   margin:15px 10px;
+   font-size: 20px;
+   font-family:Georgia;
+}
+.EmB3{
+   width:400px;
+   height: 265px;
+   border:5px solid rgb(6, 114, 114);
+   border-radius: 20px;
+   margin: 30px 30px;
+  
+}
+.EmB3 img{
+   width: 100px;
+   height:100px;
+   margin:15px;
+   border-radius: 20px;
+} 
+.EmB3 h4{
+   margin-left:10px;
+   font-size: 25px;
+}
+.EmB3 p{
+   margin:15px 10px;
+   font-size: 20px;
+   font-family:Georgia;
+}
+.container1{
+   display:flex;
+}
+.EmB4{
+   width:400px;
+   height: 265px;
+   border:5px solid rgb(6, 114, 114);
+   border-radius: 20px;
+   margin: 30px 30px;
+  
+}
+.EmB4 img{
+   width: 100px;
+   height:100px;
+   margin:15px;
+   border-radius: 20px;
+} 
+.EmB4 h4{
+   margin-left:10px;
+   font-size: 25px;
+}
+.EmB4 p{
+   margin:15px 10px;
+   font-size: 20px;
+   font-family:Georgia;
+}
+.EmB5{
+   width:400px;
+   height: 265px;
+   border:5px solid rgb(6, 114, 114);
+   border-radius: 20px;
+   margin: 30px 30px;
+  
+}
+.EmB5 img{
+   width: 100px;
+   height:100px;
+   margin:15px;
+   border-radius: 20px;
+} 
+.EmB5 h4{
+   margin-left:10px;
+   font-size: 25px;
+}
+.EmB5 p{
+   margin:15px 10px;
+   font-size: 20px;
+   font-family:Georgia;
+}
+
+
+
 
