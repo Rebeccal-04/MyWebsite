@@ -3,11 +3,6 @@
    padding:0;
    box-sizing: border-box;
 }
-body{
-    background-image: url("");
-    background-repeat: repeat;
-    background-size: cover;
-}
 
 .spaced-paragraph {
   margin-top: 20px;   /* space above paragraph */

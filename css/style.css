@@ -56,8 +56,8 @@
    margin:0;   
    float:left;
 }
-.quotes-section {
-    text-align: left;       /* left everything inside */
+/*.quotes-section {
+    text-align: left;       /* left everything inside 
     margin-top: 60px;
     font-family: Georgia;
     color:black;
@@ -69,7 +69,7 @@
     text-align:center;
     justify-content: center;
     font-size: 26px;
-    margin-bottom: 40px;      /* Space between quotes & icons */
+    margin-bottom: 40px;      /* Space between quotes & icons 
 }
 
 .quotes{
@@ -92,8 +92,61 @@
   80% {
     transform: translateX(6px);
   }
-}
+}*/
 
+.slider{
+   width:100vw;
+   height:100vh;
+   overflow: hidden;
+   position:relative;
+}
+.slider input{
+   display: none;
+}
+.slides{
+   display: flex;
+   width: 100px;
+   height:100%;
+   animation: slide 18s infinite;
+}
+.slides img{
+   width:100vw;
+   height: 100vh;
+   flex-shrink: 0;
+}
+#s1:checked ~ .slides{transform: translateX(0);}
+#s2:checked ~ .slides{transform: translateX(-100vw);}
+#s3:checked ~ .slides{transform: translateX(-200vw);}
+
+.arrow{
+   position: absolute;
+   top:50%;
+   transform: translateY(-50%);
+   font-size: 30px;
+   color:white;
+   cursor: pointer;
+   padding: 10px;
+   background:gray;
+   border-radius: 50%;
+   user-select: none;
+   z-index: 10;
+}
+.arrow:hover{
+   background: white;
+   color:black;
+}
+.left{
+   left:20px;
+}
+.right{
+   right:20px;
+}
+@keyframes slide {
+   0%{transform: translateX(0);}
+    33%{transform: translateX(-100vw);}
+     66%{transform: translateX(-200vw);}
+      100%{transform: translateX(-300vw);}
+}
 
 .con{
     display: flex;
