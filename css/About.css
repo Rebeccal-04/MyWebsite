@@ -1,3 +1,8 @@
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
 body{
     background-image: url("");
     background-repeat: repeat;
@@ -23,7 +28,7 @@ body{
 }
 
 
-.home{
+.nav{
   
    font-family:georgia;
    font-size: 20px;
@@ -37,7 +42,7 @@ body{
   
    
 }
-.home a{
+.nav a{
    display:inline-block;
    color:white;
    padding:15px 25px;
@@ -45,10 +50,15 @@ body{
    margin:0;
    
 }
-.home a:hover{
+.nav a:hover{
     color:rgb(15, 184, 184); 
 }
-.home h3{
+
+.nav a.active{
+  color:rgb(15, 184, 184); 
+  
+}
+.nav h3{
   
    font-family:georgia;
    font-size: 30px;
@@ -64,34 +74,4 @@ body{
    margin:0;   
    float:left;
 }
-/*.kids{
-    float:right;
-    display:inline-block;
-    margin:10px;
-}
-.B{
-    float:right;
-    display:inline-block;
-    margin:10px;
-    
-}
-.W{
-    float:right;
-    display:inline-block;
-    margin:10px;
-}
-.Ani{
-    animation: gentleMove 3s ease-in-out infinite;
-}*/
 
-/*@keyframes gentleMove {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(20px, 15px); 
-  }
-  100% {
-    transform: translate(0, 0);
-  }
-}*/
