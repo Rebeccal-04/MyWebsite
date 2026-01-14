@@ -15,6 +15,7 @@
 
 
 .items{
+padding-left: 40px;
   column-count: 2;          /* Number of columns */
   column-gap: 40px;         /* Space between columns */
   list-style-type: disc;     /* Optional: bullet style */

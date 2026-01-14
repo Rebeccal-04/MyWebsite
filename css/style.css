@@ -12,7 +12,9 @@
 }
 
 .nav{
-  
+   position:sticky;
+   top:0;
+   z-index: 3;
    font-family:georgia;
    font-size: 20px;
    font-weight: bold;
