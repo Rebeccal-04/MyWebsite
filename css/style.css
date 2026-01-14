@@ -1,10 +1,10 @@
-body{
-   /*background:bisque;*/
+/*body{
+   background:bisque;
    background-image: url("../images/fab4.jpg"); 
    background-repeat: no-repeat;
    background-size: cover;
    margin: 0;
-}
+}*/
 
 .home{
   
@@ -13,6 +13,9 @@ body{
    font-weight: bold;
    text-align: center;
    padding: 15px;
+   background-image: url("../images/fab4.jpg"); 
+   background-repeat: no-repeat;
+   background-size: cover;
   
    
 }
@@ -47,7 +50,7 @@ body{
     text-align: left;       /* left everything inside */
     margin-top: 60px;
     font-family: Georgia;
-    color:white;
+    color:black;
     margin: 20px;
     
 }
@@ -80,32 +83,13 @@ body{
     transform: translateX(6px);
   }
 }
-.icon-text {
-   margin:20px;
-    display: inline-block;            /* Horizontal column*/
-    justify-content: center;  /* Center the icons */
-    gap: 60px;                /* Space between each icon+text */
-}
 
-.icon-item {
-    display: flex;
-    flex-direction: row;   /* Icon on top, text below */
-    align-items: center;      /* Center inside each item */
-    font-family: Georgia;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.icon-item span:first-child {
-    font-size: 36px;          /* Bigger icon size */
-    margin-bottom: 10px;      /* Space between icon & text */
-}
 
 .con{
     display: flex;
     flex-direction: row;   /* Icon on top, text below */
     align-items: center;      /* Center inside each item */
-    color:white;
+    color:black;
     font-weight: bold;
     font-size: 30px; 
     margin: 20px;
@@ -118,39 +102,7 @@ body{
    background-color: white;
 }
 
-.blouse-image img {
-  width: 400px;
-  border-radius: 10px;
-  float:right;
-  margin-right: 50px;
-  margin-top: 30px;
-  
-}
 
-/*.scrolling-text{
-   position:absolute;
-   top: 50%;
-   left: 100%;
-   transform:translateY(-50%);
-   white-space:nowrap;
-   font-size: 50px;
-   font-weight: bold;
-   color: white;
-   background: linear-gradient(rgb(41, 134, 134),white);
-    -webkit-background-clip: text;
-   color:transparent;	
-   z-index: 10;
-   animation: moveText 15s linear infinite;
-   
-}
-/* animation 
-@keyframes moveText {
-    from {
-        left: 100%;
-    }
-    to {
-        left: -100%;
-    }
-}*/
+
 
 
