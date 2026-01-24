@@ -58,10 +58,10 @@
    align-items: center;
 }
 .container{
-   background-color: rgb(128, 234, 238);
+   background-image:url("../images/fab4.jpg");
    padding:25px;
    width:600px;
-   height:650px;
+   height:600px;
    border:2px solid black;
    border-radius: 10px;
    box-shadow: 0 8px 20px rgb(0,0,0,0.1);
@@ -70,18 +70,19 @@
 }
 .container h2{
    text-align: center;
-   color:#7a2c2c;
+   color:white;	
 }
 .container p{
    text-align: center;
-   font-size:14px;
-   color:#666;
+   font-size:15px;
+   color:#fdffff;
 }
 label{
    display:block;
    margin-top:12px;
    font-weight: bold;
-   font-size: 14px;
+   font-size: 18px;
+   color:white;
 }
 input, textarea{
    width: 300px;
@@ -96,44 +97,20 @@ textarea{
 }
 .radio,.check{
    margin-top:5px;
-   font-size: 14px;
+   font-size: 15px;
+   color:white;
 }
 .radio input{
    margin:0;
    width: 50px;
-   height:10px;
+   height:12px;
+   color: black;
 }
 .check input{
    width: 50px;
-   height:10px;
+   height:12px;
    margin: 0;
 }
-.star{
-   display:flex;
-   flex-direction: row-reverse;
-   justify-content: flex-end;
-}
-.star input{
-   display:none;
-}
-.star label{
-   color:#faf1f1;
-   cursor: pointer; 
-   font-size: 40px;
-   gap:2px;
-   margin-top:0; 
-}
-
-.star input:checked ~ label,
-.star input:checked + label,
-.star input:checked + label ~ label{
-   color:#f5b301;
-}
-
-.star label:hover{
-   color:#f5b301;
-}
-
 button{
    width: 100%;
    margin-top:15px;
