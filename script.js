@@ -1,6 +1,7 @@
 let slideIndex = 0;
 const slides = document.querySelector(".slides");
 const totalSlides = slides.children.length;
+const slideTime = 6000; // same speed for ALL slides
 
 function moveSlide() {
   slideIndex++;
@@ -10,4 +11,8 @@ function moveSlide() {
   slides.style.transform = `translateX(-${slideIndex * 100}%)`;
 }
 
-setInterval(moveSlide, 3000); // 3 seconds
+// First image stays longer
+setTimeout(() => {
+  moveSlide(); // first move
+  setInterval(moveSlide, slideTime); // same speed after that
+}, slideTime);
