@@ -1,0 +1,48 @@
+/* ===== MOBILE VIEW - ALL PAGES ===== */
+@media (max-width: 768px) {
+
+  /* NAVBAR */
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .nav h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .nav a {
+    display: block;
+    padding: 8px 0;
+    font-size: 14px;
+  }
+
+  /* SLIDER */
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* COMMON CONTENT */
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  p, li {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* GALLERY */
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  /* FORMS */
+  input, textarea, button {
+    width: 100%;
+  }
+}
