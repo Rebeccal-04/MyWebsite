@@ -60,12 +60,13 @@ h2{
 }
 .container{
    display: flex;
+   
 
 }
 
 .EmB{
    width:400px;
-   height: 265px;
+   height: 300px;
    border:5px solid rgb(6, 114, 114); 
    border-radius: 20px;
    margin: 30px 30px;
@@ -89,7 +90,7 @@ h2{
 }
 .EmB1{
    width:400px;
-   height: 265px;
+   height: 300px;
    border:5px solid rgb(6, 114, 114);
    border-radius: 20px;
    margin: 30px 30px;
@@ -112,7 +113,7 @@ h2{
 }
 .EmB2{
    width:400px;
-   height: 265px;
+   height: 300px;
    border:5px solid rgb(6, 114, 114);
    border-radius: 20px;
    margin: 30px 30px;
@@ -135,7 +136,7 @@ h2{
 }
 .EmB3{
    width:400px;
-   height: 265px;
+   height: 300px;
    border:5px solid rgb(6, 114, 114);
    border-radius: 20px;
    margin: 30px 30px;
@@ -161,7 +162,7 @@ h2{
 }
 .EmB4{
    width:400px;
-   height: 265px;
+   height: 300px;
    border:5px solid rgb(6, 114, 114);
    border-radius: 20px;
    margin: 30px 30px;
@@ -184,7 +185,7 @@ h2{
 }
 .EmB5{
    width:400px;
-   height: 265px;
+   height: 300px;
    border:5px solid rgb(6, 114, 114);
    border-radius: 20px;
    margin: 30px 30px;
