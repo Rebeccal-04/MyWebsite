@@ -5,6 +5,56 @@
   font-family: Arial, sans-serif;
 }
 
+.nav{
+   position:sticky;
+   top:0;
+   z-index:3;
+   width:100%;
+   font-family:georgia;
+   font-size: 20px;
+   font-weight: bold;
+   text-align: center;
+   padding: 15px 40px;
+   /*background-color:rgb(3, 99, 99); */
+   background-image: url("../images/fab4.jpg"); 
+   background-repeat: no-repeat;
+   background-size: cover;
+  
+   
+}
+.nav a{
+   display:inline-block;
+   color:white;
+   padding:15px 25px;
+   text-decoration: none;
+   margin:0;
+   
+}
+.nav a:hover{
+    color:rgb(15, 184, 184); 
+}
+
+.nav a.active{
+  color:rgb(15, 184, 184); 
+  
+}
+.nav h3{
+  
+   font-family:georgia;
+   font-size: 30px;
+   font-weight: bold;
+   text-align: left;
+   display:inline-block;
+   color:white;
+   background: linear-gradient(rgb(41, 134, 134),white,rgb(41, 134, 134));
+    -webkit-background-clip: text;
+   color:transparent;	
+   padding:15px 25px;
+   text-decoration: none;
+   margin:0;   
+   float:left;
+}
+
 /* CONTACT SECTION */
 .contact-section {
   padding: 40px;
